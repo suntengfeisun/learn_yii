@@ -35,6 +35,7 @@ class CWebApplication
 
     public function run()
     {
+//        var_dump($this);
         if (!empty($_GET['r'])) {
             $route = $_GET['r'];
             $pos = strpos($route, '/');
