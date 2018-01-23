@@ -1,7 +1,8 @@
 <?php
 
-require '../framework/CController.php';
-require '../models/Article.php';
+require __ROOT__ . '/framework/CController.php';
+require __ROOT__ . '/models/Article.php';
+
 //require '../views/index.php';
 
 class DefaultController extends CController
